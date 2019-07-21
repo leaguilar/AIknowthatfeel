@@ -1,0 +1,43 @@
+<title>Semtiment bot</title>
+<link rel="stylesheet" media="screen" href="static/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div class="container">
+<h2>AI know that feel</h2>
+<form action="" method="post" role="form">
+    {{ form.csrf }}
+<div class="form-group">
+      <label for="text1">Text 1:</label>
+<input type="text" class="form-control" id="bottext" name="text1" placeholder="Tell something to the bot 1?"></div>
+<div class="form-group">
+      <label for="text2">Text 2:</label>
+<input type="text" class="form-control" id="bottext" name="text2" placeholder="Tell something to the bot 2?"></div>
+<div class="form-group">
+      <label for="text3">Text 3:</label> 
+<input type="text" class="form-control" id="bottext" name="text3" placeholder="Tell something to the bot 3?"></div>
+<button type="submit" class="btn btn-success">Submit</button>
+</form>
+
+<div class="text-center">
+<img src="{{url_for('static', filename='wojak/' + filename)}}" height="150" width="120" class="rounded">
+</div>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+
+{% for message in messages %}
+{% if "Error" not in message[1]: %}
+<div class="alert alert-info">
+                <strong>Success! </strong> {{ message[1] }}</div>
+{% endif %}
+
+{% if "Error" in message[1]: %}
+<div class="alert alert-warning">
+                {{ message[1] }}</div>
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endwith %}
+
+
+</div>
