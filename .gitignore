@@ -2,7 +2,6 @@
 .idea
 sandbox
 logs
-models
 __pycache__
 bootstrap*
 
