@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 import pandas as pd
 import numpy as np
-from keras.preprocessing import sequence
-from keras.metrics import categorical_accuracy
+from tensorflow.keras.preprocessing import sequence
+from tensorflow.keras.metrics import categorical_accuracy
 import pickle
 from libs.easeml import evalAccuracy
 import argparse
