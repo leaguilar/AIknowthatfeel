@@ -4,5 +4,5 @@ ml:
 - reliability: 0.99
 - mode : fp-free
 - adaptivity : full
-- steps : 32
+- steps : 4
 - dataMode : local
