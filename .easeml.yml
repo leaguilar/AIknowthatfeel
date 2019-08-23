@@ -1,8 +1,9 @@
 ml:
 - script : ./test_model.py
-- condition : n - d > 0.8 +/- 0.1
+- condition : n - o > 0.8 +/- 0.1
 - reliability: 0.99
 - mode : fp-free
 - adaptivity : full
 - steps : 4
 - dataMode : local
+- email: leonel.aguilar.m@gmail.com
