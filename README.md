@@ -10,8 +10,6 @@
 
 <!---
 
-
-
 ## Shields.io
 ![easemlCI](https://img.shields.io/endpoint?url=https://untitled-00vyckcohlbb.runkit.sh/leaguilar/AIknowthatfeel/status)
 
