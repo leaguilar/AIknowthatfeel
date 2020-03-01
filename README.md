@@ -10,7 +10,7 @@
 
 <!---
 ## Shields.io
-le
+l
 ![easemlCI](https://img.shields.io/endpoint?url=https://untitled-00vyckcohlbb.runkit.sh/leaguilar/AIknowthatfeel/status)
 
 ![easemlCI](https://img.shields.io/endpoint?url=https://untitled-00vyckcohlbb.runkit.sh/leaguilar/AIknowthatfeel/fail_type)
