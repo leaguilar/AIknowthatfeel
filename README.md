@@ -9,7 +9,6 @@
 ![easemlCI](https://badgen.net/runkit/untitled-0o7d9uwg2653/leaguilar/AIknowthatfeel/run_count)
 
 <!---
-
 ## Shields.io
 ![easemlCI](https://img.shields.io/endpoint?url=https://untitled-00vyckcohlbb.runkit.sh/leaguilar/AIknowthatfeel/status)
 
