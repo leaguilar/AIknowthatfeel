@@ -2,13 +2,14 @@ from flask import Flask, render_template, flash, request
 from wtforms import Form, TextField, TextAreaField, validators, StringField, SubmitField
 import tensorflow as tf
 from agent.wojak import WojakEntity
+from flask_ngrok import run_with_ngrok
 
 # App config.
 DEBUG = True
 app = Flask(__name__)
 app.config.from_object(__name__)
 app.config['SECRET_KEY'] = '7d441f27d441f27567d441f2b6176a'
-
+run_with_ngrok(app)
 
 
 wojak=WojakEntity()
