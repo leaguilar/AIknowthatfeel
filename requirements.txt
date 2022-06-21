@@ -3,7 +3,7 @@ flask-ngrok==0.0.25
 Keras==2.2.4
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
-numpy==1.16.1
+numpy==1.22.0
 pandas==0.25.0
 tensorflow==1.14.0
 tensorflow-estimator==1.14.0
