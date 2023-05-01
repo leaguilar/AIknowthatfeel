@@ -1,4 +1,4 @@
-Flask==1.1.1
+Flask==2.3.2
 flask-ngrok==0.0.25
 Keras==2.2.4
 Keras-Applications==1.0.8
